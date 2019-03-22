@@ -1,3 +1,6 @@
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/coltongit/regexworld.svg)](https://greenkeeper.io/)
+
 with an array
 ```js
 const RegexWorld = require("./test.js");
