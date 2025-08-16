@@ -1,41 +1,22 @@
 {
-  "_args": [
-    [
-      "regexworld@github:zelak312/RegexWorld#1239b4089f94e3d5f744a76fd7b5e407ef3f085c",
-      "/mnt/c/Colton/openscykohbot"
-    ]
-  ],
-  "_from": "regexworld@github:zelak312/RegexWorld#1239b4089f94e3d5f744a76fd7b5e407ef3f085c",
-  "_id": "regexworld@github:zelak312/RegexWorld#1239b4089f94e3d5f744a76fd7b5e407ef3f085c",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/regexworld",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "regexworld@github:zelak312/RegexWorld#1239b4089f94e3d5f744a76fd7b5e407ef3f085c",
-    "name": "regexworld",
-    "escapedName": "regexworld",
-    "rawSpec": "github:zelak312/RegexWorld#1239b4089f94e3d5f744a76fd7b5e407ef3f085c",
-    "saveSpec": "github:zelak312/RegexWorld#1239b4089f94e3d5f744a76fd7b5e407ef3f085c",
-    "fetchSpec": null,
-    "gitCommittish": "1239b4089f94e3d5f744a76fd7b5e407ef3f085c"
-  },
-  "_requiredBy": [
-    "/discord.js-tools"
-  ],
-  "_resolved": "github:zelak312/RegexWorld#1239b4089f94e3d5f744a76fd7b5e407ef3f085c",
-  "_spec": "github:zelak312/RegexWorld#1239b4089f94e3d5f744a76fd7b5e407ef3f085c",
-  "_where": "/mnt/c/Colton/openscykohbot",
-  "author": {
-    "name": "ZelAk312"
-  },
+  "name": "regexworld",
+  "version": "1.0.0",
   "description": "with an array ```js const RegexWorld = require(\"./test.js\");",
   "license": "ISC",
   "main": "test.js",
-  "name": "regexworld",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "validate": "npx eslint .",
+    "test": "npx jest"
   },
-  "version": "1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawr51919/regexworld.git"
+  },
+  "author": "ZelAk312",
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "globals": "^16.3.0",
+    "jest": "^30.0.5"
+  }
 }
