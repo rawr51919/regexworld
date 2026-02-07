@@ -15,7 +15,7 @@
   },
   "author": "ZelAk312",
   "devDependencies": {
-    "@eslint/js": "^9.33.0",
+    "@eslint/js": "^10.0.0",
     "@jest/globals": "^30.0.5",
     "globals": "^17.0.0",
     "jest": "^30.0.5"
